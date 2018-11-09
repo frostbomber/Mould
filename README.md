@@ -10,3 +10,5 @@ Part of this would include the user creating relationships, which implement IRel
 Then, you can either take one item and Clone(), /or/ take a whole list and Match() to aggregate. Any items at this stage should implement IMouldable.
 The Value of MouldItem and the class which implements IMouldable should be the "foreign key" between the tree and the list (PID and ID in the example).
 That's all there is to it! You bring the data, with a bit of formatting, and we do the heavy lifting!
+
+<TODO: Full Example>
